@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7e3220</color>
+    <color name="colorPrimaryDark">#461A10</color>
+    <color name="colorAccent">#7e3220</color>
+
+    <color name="action_bar_bg_color">#913818</color>
+    <color name="bg_color">#eaac5b</color>
+    <color name="text_color">#aa0000</color>
+    <color name="list_background_pressed">#ffd187</color>
+    <color name="list_background">#DC5C39</color>
+    <color name="list_item_text_color">#4d1b00</color>
+    <color name="list_divider">#272727</color>
+    <color name="list_item_title">#fff</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="colorGrey">#F5F5F5</color>
+
+</resources>

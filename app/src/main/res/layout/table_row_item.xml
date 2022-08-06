@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/monthLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        
+
+        <TextView
+            android:id="@+id/month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="@dimen/table_layout_margin"
+            android:text="January"
+            android:textColor="@color/list_item_text_color" />
+
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/month"
+            android:text="* * * * * * * * * * * *"
+            android:layout_centerHorizontal="true" 
+            android:textColor="@color/list_item_text_color"/>
+        
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/titleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/table_layout_margin"
+        android:layout_marginRight="@dimen/table_layout_margin" >
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="@dimen/date_text_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/table_layout_margin"
+            android:layout_marginRight="@dimen/table_layout_margin"
+            android:text="12" 
+            android:textColor="@color/list_item_text_color"/>
+
+        <TextView
+            android:id="@+id/weekday"
+            android:layout_width="@dimen/weekday_text_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/table_layout_margin"
+            android:layout_marginRight="@dimen/table_layout_margin"
+            android:text="TextView"
+            android:textColor="@color/list_item_text_color" />
+
+        <TextView
+            android:id="@+id/festival"
+            android:layout_width="@dimen/festival_name_text_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/table_layout_margin"
+            android:layout_marginRight="@dimen/table_layout_margin"
+            android:text="TextView"
+            android:textColor="@color/list_item_text_color" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="holybible.religious.christianity.MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/bg1"
+        android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp">
+        <LinearLayout android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+           
+            android:layout_marginRight="20dp"
+          >
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lord Ganesh Mantra"
+                android:gravity="left"
+                android:layout_gravity="left"
+                android:layout_margin="5dp"
+                style="?android:textAppearanceMedium"
+                 android:textStyle="bold"
+                android:textColor="@color/text_color"/>
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/vakratunda_mantra"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                style="?android:textAppearanceMedium"
+                android:textColor="@color/text_color"/>
+            
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shri Laxmi Mantra"
+                android:gravity="left"
+                android:layout_gravity="left"
+                android:textColor="@color/text_color"
+                android:layout_margin="5dp"
+                style="?android:textAppearanceMedium"
+                android:textStyle="bold"/>
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/laxmi_mantra"
+                android:gravity="center_horizontal"
+                android:textColor="@color/text_color"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                style="?android:textAppearanceMedium"/>
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:text="@string/laxmi_mantra1"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/text_color"
+                android:layout_margin="5dp"
+                style="?android:textAppearanceMedium"/>
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/laxmi_mantra2"
+                android:textColor="@color/text_color"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                style="?android:textAppearanceMedium"/>
+             <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shri Gaytri Mantra"
+                android:textColor="@color/text_color"
+                android:gravity="left"
+                style="?android:textAppearanceMedium"
+                android:layout_gravity="left"
+                android:layout_margin="5dp"
+                android:textStyle="bold"/>
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gayatri_mantra"
+                style="?android:textAppearanceMedium"
+                android:textColor="@color/text_color"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"/>
+             
+             <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shri Shanti Path Mantra"
+                android:gravity="left"
+                style="?android:textAppearanceMedium"
+                android:textColor="@color/text_color"
+                android:layout_gravity="left"
+                android:layout_margin="5dp"
+                android:textStyle="bold"/>
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_color"
+                style="?android:textAppearanceMedium"
+                android:text="@string/shanti_path"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"/>
+             
+             </LinearLayout>
+    </ScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>

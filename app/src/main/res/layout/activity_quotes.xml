@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/jokeview_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGrey"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/index_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="4dp"
+        android:text="1/10"
+        android:textAlignment="center"
+        android:textColor="@color/text_color"
+        android:textSize="20sp" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/readJokePager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:layout_weight="1"></androidx.viewpager.widget.ViewPager>
+
+    <RelativeLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/prevbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:clickable="true"
+            android:src="@drawable/left_arrow" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <ImageView
+                android:id="@+id/share_with_whatsapp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingRight="15dp"
+                android:src="@drawable/whats_app" />
+
+            <ImageView
+                android:id="@+id/share_current_joke"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:src="@drawable/share" />
+
+           <!-- <ImageView
+                android:id="@+id/my_fb_share_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:src="@drawable/fb_icon" />-->
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/nextbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:clickable="true"
+            android:src="@drawable/right_arrow" />
+    </RelativeLayout>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        ads:adUnitId="@string/admob_banner_id">
+    </com.google.android.gms.ads.AdView>
+
+</LinearLayout>

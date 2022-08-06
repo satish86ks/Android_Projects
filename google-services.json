@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "140957635094",
+    "firebase_url": "https://powerful-bible-prayers-432c2.firebaseio.com",
+    "project_id": "powerful-bible-prayers-432c2",
+    "storage_bucket": "powerful-bible-prayers-432c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140957635094:android:48e75fbce56c9153cbdb37",
+        "android_client_info": {
+          "package_name": "holybible.religious.christianity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140957635094-ak5dnpgq2bl2jrjrrfar4nphjm08k86n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfW1OEiQot5aROc9Ny_c5s-gs4kruoI5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140957635094-ak5dnpgq2bl2jrjrrfar4nphjm08k86n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
